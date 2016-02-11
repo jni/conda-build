@@ -138,7 +138,7 @@ Create recipe skeleton for packages hosted on the Python Packaging Index
         action='store',
         default=default_python,
         help="""Version of Python to use to run setup.py. Default is %(default)s.""",
-        choices=['2.6', '2.7', '3.3', '3.4'],
+        choices=['2.6', '2.7', '3.3', '3.4', '3.5'],
         )
 
     pypi.add_argument(
